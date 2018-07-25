@@ -1,0 +1,46 @@
+section {
+    background: #FA8072;
+    color: white;
+    width:  350px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 200;
+}
+
+form {
+    padding: 10px 20px;
+}
+
+.input-field {
+    padding: 20px 5px;
+}
+
+label {
+    font-size: 13px;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+button {
+    background: transparent;
+    border: none;
+    right: 0;
+}
+
+select {
+    width: 100%;
+    background: transparent;    
+    border: none;
+}
