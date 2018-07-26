@@ -22,7 +22,7 @@ $( "#form" ).submit(function( event ) {
     localStorage.setItem('fields', JSON.stringify(fields));
 
     // Retrieve the object from storage
-    var retrievedObject = localStorage.getItem('fields');
+    const retrievedObject = localStorage.getItem('fields');
 
     console.log('retrievedObject: ', JSON.parse(retrievedObject));
 
