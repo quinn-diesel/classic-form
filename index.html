@@ -8,22 +8,24 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <title>Document</title>
+    <title>LJX</title>
 </head>
 
 <body>
 
     <section>
-        <form onSubmit={this.onSubmit}>
-            <h1>How can we help?</h1>
-            <p>Fill in the form below and we will get in touch</p>
+        <form action="" method="post" id="form">
+            <div class="title">
+                <h1>How can we help?</h1>
+                <p>Fill in the form below and we will get in touch</p>
+            </div>
             <div class="input-field">
                 <label for="name">Name </label>
-                <input type="text" name="name" id="name" placeholder="please enter your name" required>
+                <input type="text" name="name" id="name" placeholder="please enter your name">
             </div>
             <div class="input-field">
                 <label for="email">Contact</label>
-                <input type="email" name="email" id="email" placeholder="enter an email or phone number" required>
+                <input type="text" name="email" id="email" placeholder="enter an email or phone number" >
             </div>
             <div class="input-field">
                 <label for="address">Address</label>
@@ -53,12 +55,12 @@
         </form>
     </section>
 
+    
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 
 </body>
-
 </html>
