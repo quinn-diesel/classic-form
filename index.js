@@ -2,6 +2,7 @@
 $( "#form" ).submit(function( event ) { 
 
     const fields = {};
+    
     $("#form").find(":input").each(function() {
         fields[this.name] = $(this).val();
     });
@@ -12,8 +13,8 @@ $( "#form" ).submit(function( event ) {
         event.preventDefault();
     });
 
-    $("select.time").change(function(){
-        const timeValue = $(".time option:selected").val();
+    $("select.agent").change(function(){
+        const timeValue = $(".agenct option:selected").val();
         event.preventDefault();
     });
 
