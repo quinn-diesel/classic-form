@@ -32,6 +32,7 @@ input {
     border: none;
     border-bottom: 1px solid white;
     padding: 20px 0 10px 0;
+    cursor: pointer;
 }
 
 input::placeholder,  input[type=text], input[type=email] {
@@ -54,14 +55,21 @@ button {
     font-size: 12px;
 }
 
+.select-parent {
+    position: relative;
+}
+
 select {
     width: 100%;
     background: transparent;    
     border: none;
-    appearance: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
-.pr {
+
+.pad-r {
     padding-right: 10px;
 }
 
